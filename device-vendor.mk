@@ -51,4 +51,10 @@ PRODUCT_PACKAGES += \
     libts_detected_face_hal \
     libts_face_beautify_hal
 
+# Perf
+PRODUCT_PACKAGES += \
+    com.qualcomm.qti.Performance.xml \
+    libqti_performance \
+    QPerformance
+
 $(call inherit-product, vendor/xiaomi/kenzo/vendor-blobs.mk)
